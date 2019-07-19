@@ -12,3 +12,10 @@ Bagi para kontributor hal yang wajib di ketahui.
 Jika ada yang di tanyakan silahkan contact kami
 
 Wassalam. :)
+
+Documentations:
+
+#Button
+
+Gunakan class "btn-nama"
+<button class="btn-success">Btn success</button>
