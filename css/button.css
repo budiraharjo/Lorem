@@ -1,0 +1,50 @@
+[class *="btn-"] {
+	background-color: tomato;
+	border: 1px solid;
+	border-radius: 3px;
+	color: #fff;
+	font-family: 'Poppins Medium';
+	display: inline-block;
+	padding: 15px;
+	font-size: 15px;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+button[type="submit"]:hover, input[type="submit"]:hover {
+	cursor: pointer;
+}
+
+/*coloring*/
+.btn-danger {
+	border-color: tomato;
+}
+
+/*sizing*/
+.btn-md {
+	padding: 10px 15px;
+}
+
+.btn-sm {
+	padding: 5px 15px;
+}
+
+.btn-xs {
+	padding: 2px 7px;
+}
+
+/*full width of button*/
+.full-btn {
+	width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+	/*full width button*/
+	.m-full-btn {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+
+}
