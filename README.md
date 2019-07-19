@@ -13,9 +13,26 @@ Jika ada yang di tanyakan silahkan contact kami
 
 Wassalam. :)
 
-Documentations:
+Documentations;
 
-#Button
+#button
+Gunakan class `"btn-nama"`
 
-Gunakan class "btn-nama"
-&lt;button class="btn-success">Btn success&lt;/button>
+`<button class="btn-danger">Button</button>`
+
+untuk melakukan sizing ada 3 tersedia btn-md, btn-sm, btn-xs jika kamu tidak menseting ini maka dia akan berada pada button default.
+
+`<button class="btn-danger btn-md">Button</button>`
+
+`<button class="btn-danger btn-sm">Button</button>`
+
+`<button class="btn-danger btn-xs">Button</button>`
+
+
+Tersedia jenis button
+1. `btn-primary`
+2. `btn-success`
+3. `btn-info`
+4. `btn-purple`
+5. `btn-warning`
+6. `btn-danger`
