@@ -1,0 +1,42 @@
+/*coloring*/
+.bg-default, .btn-default {
+	background-color: #ccc;
+	border-color: #bbb;
+	color: #666;
+}
+
+.bg-primary, .btn-primary {
+	background-color: #29a3f8;
+	border-color: #29a3f8;
+}
+
+.bg-success, .btn-success {
+	background-color: #26c252;
+	border-color: #26c252;
+}
+
+.bg-info, .btn-info {
+	background-color: #34c2d1;
+	border-color: #34c2d1;
+}
+
+.bg-purple, .btn-purple {
+	background-color: #9a2d9a;
+	border-color: #9a2d9a;
+}
+
+.bg-warning, .btn-warning {
+	background-color: #ffb347;
+	border-color: #ffb347;
+}
+
+.bg-danger, .btn-danger {
+	background-color: tomato;
+	border-color: tomato;
+}
+
+
+/*color text*/
+.bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger {
+	color: #fff;
+}
