@@ -1,5 +1,5 @@
 [class *="btn-"] {
-	background-color: tomato;
+	background-color: #ccc;
 	border: 1px solid;
 	border-radius: 3px;
 	color: #fff;
@@ -15,9 +15,44 @@ button[type="submit"]:hover, input[type="submit"]:hover {
 	cursor: pointer;
 }
 
-/*coloring*/
-.btn-danger {
-	border-color: tomato;
+/*hovering button*/
+[class *="btn-"]:hover {
+	transition: 0.2s;
+	box-shadow: 0 3px 5px 0 #ddd;
+}
+
+.btn-default:hover {
+	background-color: #cccccc;
+}
+
+.btn-primary:hover {
+	background-color: #29a3f8cc;
+	border-color: #29a3f8cc;
+}
+
+.btn-success:hover {
+	background-color: #26c252cc;
+	border-color: #26c252cc;
+}
+
+.btn-info:hover {
+	background-color: #34c2d1cc;
+	color-color: #34c2d1cc;
+}
+
+.btn-purple:hover {
+	background-color: #9a2d9acc;
+	border-color: #9a2d9acc;
+}
+
+.btn-warning:hover {
+	background-color: #ffb347cc;
+	border-color: #ffb347cc;
+}
+
+.btn-danger:hover {
+	background-color: #ff6347cc;
+	border-color: #ff6347cc;
 }
 
 /*sizing*/
