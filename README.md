@@ -18,4 +18,4 @@ Documentations:
 #Button
 
 Gunakan class "btn-nama"
-<button class="btn-success">Btn success</button>
+&lt;button class="btn-success">Btn success&lt;/button>
