@@ -18,6 +18,7 @@ Documentations;
 #button
 Gunakan class `"btn-nama"`
 
+<<<<<<< HEAD
 `<button class="btn-danger">Button</button>`
 
 untuk melakukan sizing ada 3 tersedia btn-md, btn-sm, btn-xs jika kamu tidak menseting ini maka dia akan berada pada button default.
